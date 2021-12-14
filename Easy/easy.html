@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Flag | Advanced CSS Challenge</title>
+</head>
+<style>
+
+   *{
+       background-color: gray;
+   }
+   #flag {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+	    grid-template-rows: repeat(13, calc(800px / 13));
+        border: 5px solid black;
+    }
+    img{
+        display: grid;
+        grid-column-start: 1;
+	    grid-column-end: 2;
+	    grid-row-start: 1;
+	    grid-row-end: 8;
+    }
+    .red{
+        background-color: red;
+    }
+    .white {
+      background-color: white;
+    }
+    .stripe:nth-child(odd) {
+	background-color: white;
+}
+
+.stripe:nth-child(even) {
+	background-color: red;
+}
+.red:nth-child(1),
+.white:nth-child(2),
+.red:nth-child(3),
+.white:nth-child(4),
+.red:nth-child(5),
+.white:nth-child(6),
+.red:nth-child(7) {
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+.stripe:nth-child(9),
+.stripe:nth-child(10),
+.stripe:nth-child(11),
+.stripe:nth-child(12),
+.stripe:nth-child(13),
+.stripe:nth-child(14) {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+  
+
+  </style>
+  <body>
+
+  <div id="flag">
+    <img src="stars.jpg" alt="stars"/>
+    <div class="red"></div>
+    <div class="white"></div>
+    <div class="red"></div>
+    <div class="white"></div>
+    <div class="red"></div>
+    <div class="white"></div>
+    <div class="red"></div>
+
+    <div class="stripe"></div>
+    <div class="stripe"></div>
+    <div class="stripe"></div>
+    <div class="stripe"></div>
+    <div class="stripe"></div>
+    <div class="stripe"></div>
+    
+  </div>
+</body>
+</html>

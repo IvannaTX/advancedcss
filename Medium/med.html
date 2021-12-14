@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium | Advanced CSS Challenge</title>
+</head>
+<style>
+#products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+.item{
+  border: 2px solid black;
+  padding: 1em;
+}
+img{
+  width: 300px;
+  height: 300px;
+}
+</style>
+<body>
+    <div id="products">
+        <div class=item><a href="https://www.amazon.com/What-Do-You-Meme-Party/dp/B01MRG7T0D/ref=sr_1_1_sspa?keywords=what+do+you+meme&qid=1639447871&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyNzM1V0daUUFJVVRWJmVuY3J5cHRlZElkPUEwOTQ4Nzk3MUJJOVJXVjY2VzNBVyZlbmNyeXB0ZWRBZElkPUEwODE2MzAwMzJKRFNISzE0OUZOTiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">
+                <h1>What Do You Meme?</h1></a>
+            <img src="https://m.media-amazon.com/images/I/71f-s2QbcvL._AC_SL1500_.jpg" alt="MemeGame"/>
+            <p>Core Game - The Hilarious Adult Party Game for Meme Lovers</p>
+            <h2>$29.99</h2>
+        </div>
+        <div class=item><a href="https://www.amazon.com/dp/B07JZTBV9C/ref=sspa_dk_detail_4?psc=1&pd_rd_i=B07JZTBV9C&pd_rd_w=3t8iM&pf_rd_p=54ed5474-54a8-4c7f-a88a-45f748d18166&pd_rd_wg=gdbaw&pf_rd_r=P2C5Z57NBR202EV5Y0CV&pd_rd_r=7ac1747f-23f1-456d-a492-bd02744f8d1f&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzSk1QRVBKM0Q5NEozJmVuY3J5cHRlZElkPUEwNzA0OTQ5SjQ2MUlaUEVOVzFSJmVuY3J5cHRlZEFkSWQ9QTA4NjE1MjlGRVhZQzFZNVUzMkEmd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWMmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl">
+                <h1>Taco vs Burrito</h1></a>
+            <img src="https://m.media-amazon.com/images/I/71PeknIreML._AC_SL1500_.jpg" alt="TvsB"/>
+            <p>The Wildly Popular Surprisingly Strategic Card Game Created by a 7 Year Old</p>
+            <h2>$22.99</h2>
+        </div>
+        <div class=item><a href="https://www.amazon.com/Unstable-Unicorns-TEE3678UUBSG1-Base-Game/dp/B07BMLQBM1/ref=pd_bxgy_img_1/143-3724884-9007248?pd_rd_w=l7sq0&pf_rd_p=c64372fa-c41c-422e-990d-9e034f73989b&pf_rd_r=3BQ7A8GC4ETFED9MF47D&pd_rd_r=8cd03dd2-1c33-4135-be16-9b63a9b576d4&pd_rd_wg=aW00o&pd_rd_i=B07BMLQBM1&psc=1">
+            <h1>TeeTurtle Unstable Unicorns Card Game</h1></a>
+            <img src="https://m.media-amazon.com/images/I/513Pcm1sEvL._AC_SL1000_.jpg" alt="Unicorns"/>
+            <p>A Strategic Card Game & Party Game for Adults & Teens</p>
+            <h2>$13.62</h2>
+        </div>
+        <div class=item><a href="https://www.amazon.com/dp/B07PYMKN9Q/ref=sspa_dk_detail_4?psc=1&pd_rd_i=B07PYMKN9Q&pd_rd_w=Z2fiq&pf_rd_p=54ed5474-54a8-4c7f-a88a-45f748d18166&pd_rd_wg=QLa8s&pf_rd_r=C6DYYRKBQPBN2CWZ63ZX&pd_rd_r=5bc2c9c8-8b55-46dd-8db2-617cf3ae1f4f&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzTlA5WjZYT1gzWk5YJmVuY3J5cHRlZElkPUEwODkwMjA5MzRLNE5OSzNNWVhGVSZlbmNyeXB0ZWRBZElkPUEwNzg4NTkzMzA1UlY5NzZPR1BSSCZ3aWRnZXROYW1lPXNwX2RldGFpbF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">
+            <h1>Llamas Unleashed Card Game</h1></a>
+            <img src="https://m.media-amazon.com/images/I/61bmfh4ilQL._AC_SL1000_.jpg" alt="Llamas"/>
+            <p>A Strategic Card Game & Party Game for Adults & Teens</p>
+            <h2>$17.28</h2>
+        </div>
+        <div class=item><a href="https://www.amazon.com/dp/B08S5TJHH5/ref=sspa_dk_detail_6?pd_rd_i=B08S5TJHH5&pd_rd_w=Z2fiq&pf_rd_p=54ed5474-54a8-4c7f-a88a-45f748d18166&pd_rd_wg=QLa8s&pf_rd_r=C6DYYRKBQPBN2CWZ63ZX&pd_rd_r=5bc2c9c8-8b55-46dd-8db2-617cf3ae1f4f&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzTlA5WjZYT1gzWk5YJmVuY3J5cHRlZElkPUEwODkwMjA5MzRLNE5OSzNNWVhGVSZlbmNyeXB0ZWRBZElkPUEwMzIxNjEwM0VCWE9MR0k0M0lQTCZ3aWRnZXROYW1lPXNwX2RldGFpbF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1">
+            <h1>Farting Frenchies</h1></a>
+            <img src="https://m.media-amazon.com/images/I/71FEfPt+N2S._AC_SL1500_.jpg" alt="Frenchies"/>
+            <p>A Wildly Silly, Clever & Exciting Family Game for Adults and Kids- Can Purchase Expansion Packs</p>
+            <h2>$24.99</h2>
+        </div>
+        <div class=item><a href="https://www.amazon.com/Exploding-Kittens-LLC-EKG-ORG1-1-Card/dp/B010TQY7A8/ref=pd_bxgy_img_2/143-3724884-9007248?pd_rd_w=uZz7r&pf_rd_p=c64372fa-c41c-422e-990d-9e034f73989b&pf_rd_r=C14TEQ6PJG496VJJXBMY&pd_rd_r=25722818-f74c-4b04-8f2a-1f8ba1746aae&pd_rd_wg=g1vxL&pd_rd_i=B010TQY7A8&psc=1">
+            <h1>Exploding Kittens</h1></a>
+            <img src="https://m.media-amazon.com/images/I/510RZPoe1BS._AC_SL1000_.jpg" alt="ExplodingKittens"/>
+            <p>A Russian Roulette Card Game, Easy Family-Friendly Party Games - 2-5 Players</p>
+            <h2>$15.99</h2>
+        </div>
+        <div class=item><a href="https://www.amazon.com/Youve-Got-Crabs-Creators-Exploding/dp/B07BKLT9B5/ref=pb_allspark_dp_sims_pao_desktop_session_based_2/143-3724884-9007248?pd_rd_w=SArD2&pf_rd_p=e896123b-6614-49c5-873e-d532e726c2f0&pf_rd_r=0BK7V4HZ493KB6A9RA3B&pd_rd_r=a57eb22c-fef0-4202-898f-5539d7fc8e31&pd_rd_wg=lUfUL&pd_rd_i=B07BKLT9B5&psc=1">
+            <h1>You've Got Crabs by Exploding Kittens</h1></a>
+            <img src="https://m.media-amazon.com/images/I/6128ETkeEnL._AC_SL1500_.jpg" alt="Crabs"/>
+            <p>A Card Game Filled with Crustaceans and Secrets - Family-Friendly Party Games</p>
+            <h2>$15.99</h2>
+        </div>
+        <div class=item><a href="https://www.amazon.com/Throw-Burrito-Dodgeball-Exploding-Kittens/dp/B07TS96J7Q/ref=sr_1_2?crid=3SLBHVCPFEEX1&keywords=throw+throw+burrito+game&qid=1639450817&s=toys-and-games&sprefix=throw+burr%2Ctoys-and-games%2C341&sr=1-2">
+            <h1>Throw Throw Burrito by Exploding Kittens</h1></a>
+            <img src="https://m.media-amazon.com/images/I/71f-s2QbcvL._AC_SL1500_.jpg" alt="MemeGame"/>
+            <p>A Dodgeball Card Game - Family-Friendly Party Games - 2-6 Players</p>
+            <h2>$19.99</h2>
+        </div>
+    </div>
+</body>
+</html>
